@@ -1,0 +1,11 @@
+<main class="main-content">
+    <h2 class="page-title">All Blogs</h2>
+    <% if (blogs){%>
+
+    <% blogs.forEach((blog)=>{%>
+    <p><%= blog.title %></p>
+
+    <%})%>
+
+    <%}%>
+</main>
